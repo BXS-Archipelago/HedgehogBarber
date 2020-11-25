@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto&display=swap');
 
-/* colors : mid: #494E6B ; neutral: #98878F ; contrast: #985E6D ;  dark: #192231 */ 
+/* colors : mid: #494E6B ; neutral: #98878F ; subtle contrast: #985E6D ; stark contrast: #B82601; dark: #192231 */ 
 
 body{  
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    min-height: 70vh;
-    background-color: #494E6B;
+    min-height: 65vh;
+    background-color: #192231;
 }
 
 /*---------------------------------------------------------------->>>>  LOGO */
@@ -329,98 +329,44 @@ nav ul li{
 }
 
 /*-------------------------------------------------------------------------*/
-/*----------------------------------------------------------PRICES.HTML */
+/*----------------------------------------------------------PRICES.HTML*/
 
-.prices-image {
-    position: relative;
-    height: 70vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: all 3s ease-in-out;
-    background-position: center;
-    padding-top: 20px;
-    overflow: hidden;
-}
-
-.price-container {
-    padding: 40px;
-    
-}
-
-.price1 {
-    background-color: #98878f;
+.menu-box {
+    max-height: 100vh;
+    width: 90%;
+    margin-bottom: 40px;
+   }
+.mktg-text .middle {
+    text-align: center;
+    color: #B82601;
     font-family: "Cinzel", sans-serif;
-    font-size: 1.25vh;
-    min-width: 20%;
-    padding: 10px;
-    font-weight: bold;
-    border: 1px solid #000;
+    font-size: 28px;
+    text-shadow: 1px 2px 1px #000;
+    line-height: 2;
+    padding: 0;
 }
 
-.price1 h3 {
-    font-weight: bold;
-    font-size: 3vh;
-    margin: 10px;
-   
+.middle span{
+    text-align: center;
 }
 
-.price2 {
-    background-color: #98878F;
-    font-family: "Cinzel", sans-serif;
-    font-size: 1.25vh;
-    min-width: 20%;
-    padding: 10px;
-    font-weight: bold;
-    border: 1px solid #000;
+.services-hdr{
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
-.price2 h3 {
-    font-weight: bold;
-    font-size: 3vh;
-    margin: 10px;
+.list{
+    color: #fff
 }
 
 
-.price3 {
-    background-color: #98878F;
-    font-family: "Cinzel", sans-serif;
-    font-size: 1.25vh;
-    min-width: 20%;
-    padding: 10px;
-    font-weight: bold;
-    border: 1px solid #000;
-}
-
-.price3 h3 {
-    font-weight: bold;
-    font-size: 3vh;
-    margin: 10px
-}
-
-.price4 {
-    position: absolute;
-    top: 450px;
-    background-color: #985E6D;
-    font-family: "Cinzel", sans-serif;
-    font-size: 1.25vh;
-    min-width: 100%;
-    padding: 10px;
-    font-weight: bold;
-    border: 1px solid #000;
-    color: #192231;
-}
-
-.price4 h3 {
-    font-weight: bold;
-    font-size: 2.5vh;
-    margin: 10px;
-
-}
 /*-------------------------------------------------------------------------*/
 /*----------------------------------------------------------FOOTER AREA */
 .ftr-box {
-  position: relative;
+  position: absolute;
+  width: 100%;
   height: 140px;
   bottom: 0;
   align-items: center;
@@ -434,7 +380,7 @@ margin-left: 20px;
 
 .social-icons i {
    font-size: 28px;
-   color:#98878f;
+   color:#B82601;
    text-decoration: none; 
    line-height: 2;
    letter-spacing: 20px;
@@ -463,7 +409,7 @@ margin-left: 20px;
 }
 
 .ftr-box .address ul {
-    color: #0a0d13;
+    color: #B82601;
     font-weight: bold;
     margin-right: 20px;
 }
@@ -484,7 +430,7 @@ margin-left: 20px;
 @media screen and (max-width: 400px) {
 
     .logo-box {
-    font-size: 2.5vh;
+    font-size: 2vh;
     letter-spacing: 3px;
     text-align: center;
     margin-top: 20px;
@@ -531,7 +477,13 @@ margin-left: 20px;
    text-justify: center;   
 }
 
+.mktg-text .middle {
+    font-size: 65%;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
 
-
-
+.services-hdr {
+    font-size: 20px;
+}
 } 
