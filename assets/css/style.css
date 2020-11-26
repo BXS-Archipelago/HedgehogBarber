@@ -24,23 +24,22 @@ body{
 
 .logo-box {
     font-family: "Cinzel", sans-serif;
-    font-size: vh;
-    font-weight: bold;
+     font-weight: bold;
     letter-spacing: 4px;
     text-align: center;
     margin-top: 30px;
     text-shadow: 0 2px 1px #000;
-}
+   }
 
 .hedgehog {
     color: #B82601;
     text-align: center;
-    font-size: 5vh;
+    font-size: 3rem;
 }
 
 .shop {
     color: #98878F;
-    font-size: 3vh;
+    font-size: 1rem;
 }
 
 
@@ -103,16 +102,11 @@ nav ul li a {
     nav {
         padding: 10px 10px;
     }
-    .logo
+    .logo-box
     {
-        padding: 20px 15px;
+        padding-left: 15px;
     }
-    .logo-title {
-        font-size: 55px;
-    }
-     .logo-title-strong {
-        font-size: 70px;
-    }
+    
 nav ul li{
     padding: 12px 5px;
 }
@@ -275,7 +269,7 @@ nav ul li{
 
 .hero-text {
     position: absolute;
-    top: 60%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -286,19 +280,20 @@ nav ul li{
 }
 
 .hero-text .intro-text { 
-    font-size: 3vh;
+    font-size: 1rem;
+    font-style: italic;
     letter-spacing: 5px;
-    text-shadow: 2px 2px 1px #000;
-    border: 2px solid #fff;
+    text-shadow: 2px 3px 1px #000;
+    border: 1px solid #fff;
     padding: 5px 15px;
     display: inline-block;
 }
 
 .hero-text .intro-desc {
-    margin: 25px;
+    margin: 0.75rem;
     display: flex;
     flex-direction: column;
-    font-size: 2vh;
+    font-size:1rem;
     text-shadow: 1px 1px 1px #000;
     letter-spacing: 3px;
 }
@@ -331,19 +326,47 @@ nav ul li{
 /*-------------------------------------------------------------------------*/
 /*----------------------------------------------------------PRICES.HTML*/
 
+.hero-image2 {
+    background: url("../image/scissors2.jpg");
+    position: relative;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 3s ease-in-out;
+    background-position: center;
+    padding-top: 20px;
+    overflow: hidden;
+
+}
+
 .menu-box {
-    max-height: 100vh;
-    width: 90%;
-    margin-bottom: 40px;
+    min-height: 100vh;
+    width: 100%;
+    margin-bottom: 10px;
    }
+
+
+.mktg-text {
+    max-height: 100%;
+    width: 100%;
+}
 .mktg-text .middle {
     text-align: center;
     color: #B82601;
     font-family: "Cinzel", sans-serif;
-    font-size: 28px;
-    text-shadow: 1px 2px 1px #000;
+    font-size: 18px;
+     font-weight: bolder;
+    text-shadow: 1px 1px 1px #000;
     line-height: 2;
     padding: 0;
+}
+
+.shop2 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+     text-shadow: 1px 2px 1px #000;
 }
 
 .middle span{
@@ -356,18 +379,25 @@ nav ul li{
     letter-spacing: 3px;
     text-transform: uppercase;
 }
+.middle i {
+    font-size: 1.75rem;
+    color: #B82601;
+    letter-spacing: 3px;
+}
 
 .list{
     color: #fff
 }
-
+.middle a:hover {
+    color: silver;
+}
 
 /*-------------------------------------------------------------------------*/
 /*----------------------------------------------------------FOOTER AREA */
 .ftr-box {
-  position: absolute;
+  position: relative;
   width: 100%;
-  height: 140px;
+  height: 125px;
   bottom: 0;
   align-items: center;
   justify-content: center;
@@ -430,12 +460,27 @@ margin-left: 20px;
 @media screen and (max-width: 400px) {
 
     .logo-box {
-    font-size: 2vh;
     letter-spacing: 3px;
     text-align: center;
     margin-top: 20px;
     text-shadow: 0 1px 1px #000;
+    padding-left: 15px;
     }
+
+.hedgehog {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.shop {
+    font-size: 13px;
+}
+
+  .hero-text .intro-text { 
+   display: none;
+   }
+
+
 
 .ftr-box {
     height: 100px;
