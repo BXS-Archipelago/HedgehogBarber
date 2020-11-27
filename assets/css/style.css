@@ -394,26 +394,32 @@ nav ul li{
 
 /*-------------------------------------------------------------------------*/
 /*----------------------------------------------------------EXPERIENCE.HTML  */
-.front-box {
+.outer-container {
+    max-height: 100vh;
+}
+
+.display-box {
+    height: auto;
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-items: center;
+    align-items: center;       
 }
 
 .hero-image3 {
     background: url("../image/experience.jpg");
     position: relative;
-    height: 70vh;
+    background-attachment: fixed;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     transition: all 3s ease-in-out;
     background-position: center;
     padding-top: 20px;
-    overflow: hidden;
+   
 }
 .meet {
     align-content: center;
+    position: relative;
 }
 
 .team {
@@ -437,18 +443,19 @@ nav ul li{
     letter-spacing: 2px;
 }
 .glry-container {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 
 
 .card {
-    height: 450px;
-    width: 450px;
+    height: 425px;
+    width: 425px;
     background-color: #313333;
     transform: scale(0.7);
     border-radius: 8px;
@@ -557,8 +564,7 @@ nav ul li{
     background-size: 100% 100%;
     border-radius: 8px;
     transition: 1s;
-    
-}
+    }
 
 
 .card:hover .pic3 {
@@ -577,6 +583,159 @@ nav ul li{
     font-weight: 600;
     text-decoration: none;
     text-align: center;
+}
+
+.history {
+    position: relative;
+    width: 100%;
+    background: #192231;
+    top: 5px;
+   
+}
+
+.abt-hdr {
+    text-align: center;
+    text-justify: center;
+    color: #B82601;
+    font-family: "Cinzel", sans-serif;
+    font-weight: bolder;
+    letter-spacing: 4px;
+}
+
+.about {
+    font-family: "Cinzel", sans-serif;
+    font-size: 1rem;
+    color: #fff;
+
+}
+
+/*-------------------------------------------------------------------------*/
+/*----------------------------------------------------------CONTACT.HTML */
+.cont-sctn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 65vh;
+    width: 100%;
+    background: #494E6B ;
+    position: relative;
+    top: 5px;
+    margin-bottom: 80px;
+}
+
+.contact-container {
+    position: relative;
+    width: 100%;
+    max-width: 1100px;
+    margin: 20px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-container .form-box {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact-container .form-box form {
+    position: relative;
+    width: 100%;
+    padding: 0 0 0 75px;
+}
+
+.contact-container .form-box .form-style h3 {
+    color:rgb(226, 226, 226); 
+    font-weight: 500;
+    font-size: 3rem;
+    font-family: "Cinzel", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+
+.contact-container .form-box .form-style .inputbox {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.contact-container .form-box .form-style .inputbox:last-child    {
+    margin-bottom: 0px;
+}
+
+.contact-container .form-box .form-style .inputbox input,
+.contact-container .form-box .form-style .inputbox textarea {
+    position: relative;
+    background: transparent;
+    outline: none;
+    border: none;
+    width: 100%;
+    color:#000; 
+    padding-bottom: 10px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    border-bottom: 2px solid #CAEBF2;
+    resize: none;
+}
+
+.contact-container .form-box .form-style .inputbox textarea {
+    height: 100px;    
+}
+
+.contact-container .form-box .form-style .inputbox input[type="submit"] {
+    background: #A9A9A9; ;
+    padding: 8px 20px;
+    margin-top: -10px;
+    width: 100px;
+    cursor: pointer;
+    color: #FFF; 
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.contact-container .form-box .form-style .inputbox input[type="submit"]:focus {
+    background: #3f3e3e;
+    color: #fff;
+    box-shadow: 0 5px #B82601;
+    transform: translateY(4px);
+}
+
+.contact-container .form-box .form-style .inputbox span {
+    position: absolute;
+    left: 0;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-block;
+    pointer-events: none;
+    letter-spacing: 1px;
+    color: #A9A9A9;
+    transition: all 0.2s ;
+}
+
+.contact-container .form-box .form-style .inputbox input:focus ~ span ,
+.contact-container .form-box .form-style .inputbox textarea:focus ~ span,
+.contact-container .form-box .form-style .inputbox input:valid ~ span,
+.contact-container .form-box .form-style .inputbox textarea:valid ~ span {
+    transform: translateY(-24px);
+    color: #B82601;
+    font-size: 14px;
+}
+
+.contact-container .form-box .form-style .inputbox input:focus,
+.contact-container .form-box .form-style .inputbox textarea:focus,
+.contact-container .form-box .form-style .inputbox input:valid,
+.contact-container .form-box .form-style .inputbox textarea:valid {
+
+    border-bottom-color: #B82601; ;
 }
 
 
@@ -644,6 +803,11 @@ margin-left: 20px;
 /*-------------------------------------------------------------------------*/
 /*-------------------------------------------------------GENERAL MEDIA QUERY */
 
+@media screen and (max-width: 993px) {
+  
+}
+
+
 
 @media screen and (max-width: 400px) {
 
@@ -664,7 +828,7 @@ margin-left: 20px;
     font-size: 13px;
 }
 
-  .hero-text .intro-text { 
+.hero-text .intro-text { 
    display: none;
    }
 
