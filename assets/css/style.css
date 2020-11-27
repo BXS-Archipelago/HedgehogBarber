@@ -393,6 +393,194 @@ nav ul li{
 }
 
 /*-------------------------------------------------------------------------*/
+/*----------------------------------------------------------EXPERIENCE.HTML  */
+.front-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.hero-image3 {
+    background: url("../image/experience.jpg");
+    position: relative;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 3s ease-in-out;
+    background-position: center;
+    padding-top: 20px;
+    overflow: hidden;
+}
+.meet {
+    align-content: center;
+}
+
+.team {
+    font-family: "Cinzel", sans-serif;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #fff;
+    text-align: center;
+    text-justify: center;
+    letter-spacing: 3px;
+}
+
+.meet .team2 {
+    font-family: "roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #B82601;
+    text-align: center;
+    text-justify: center;
+    text-shadow: 0px 1px 1px #fff;
+    letter-spacing: 2px;
+}
+.glry-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.card {
+    height: 450px;
+    width: 450px;
+    background-color: #313333;
+    transform: scale(0.7);
+    border-radius: 8px;
+    box-shadow: 0 0 80px 1px #FF3B3F;
+}
+
+.info {
+    width: 100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+}
+
+.barber {
+    font-family: "Cinzel", sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #CAEBF2;
+    text-shadow: 0px 0px 2px #FF0000;
+    position: absolute;
+    top: 100px;
+    letter-spacing: 3px;
+}
+
+.cuts {
+    font-size: 1.25rem;
+    font-family:  "Roboto";
+    color:  #985E6D;
+    position: absolute;
+    top: 150px;
+}
+
+.divider {
+    background-color:#FF3B3F;
+    height: 1.5px;
+    width: 50px;
+    position: absolute;
+    top: 190px;
+}
+
+.bio {
+    position: absolute;
+    top: 220px;
+    color: #CAEBF2;
+    line-height: 28px;
+    font-size: 18px;
+    text-align: center;   
+}
+
+.card-btn {
+    position: absolute;
+    bottom: 30px;
+    background-color: #FF3B3F;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 13px 25px; 
+    cursor: pointer;
+    color: #494E6B;
+}
+
+.pic1 {
+    height: 100%;
+    width: 100%;
+    background-image: url("../image/beard1.jpg");
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom:0;
+    background-size: 100% 100%;
+    border-radius: 8px;
+    transition: 1s;
+}
+
+
+.card:hover .pic1 {
+    transform: scale(0.5, 0.35) translateY(-650px);
+    border-radius: 40%;
+}
+
+
+.pic2 {
+    height: 100%;
+    width: 100%;
+    background-image: url("../image/beard2a.jpg");
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom:0;
+    background-size: 100% 100%;
+    border-radius: 8px;
+    transition: 1s;
+}
+
+
+.card:hover .pic2 {
+    transform: scale(0.5, 0.35) translateY(-650px);
+    border-radius: 40%;
+}
+
+.pic3 {
+    height: 100%;
+    width: 100%;
+    background-image: url("../image/beard3b.jpg");
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom:0;
+    background-size: 100% 100%;
+    border-radius: 8px;
+    transition: 1s;
+    
+}
+
+
+.card:hover .pic3 {
+    transform: scale(0.5, 0.35) translateY(-650px);
+    border-radius: 40%;
+}
+
+.card .media-link {
+    position: absolute;
+    bottom:-70px;
+    font-size: 25px;
+    color: #B82601;
+    background: #494E6B;
+    width: 100%; 
+    padding: 12px 4px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+/*-------------------------------------------------------------------------*/
 /*----------------------------------------------------------FOOTER AREA */
 .ftr-box {
   position: relative;

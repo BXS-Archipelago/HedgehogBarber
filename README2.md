@@ -132,4 +132,13 @@ https://unsplash.com/photos/1_DAlXy0wng
 scissors2.jpg - Photo Credit : "Attic Collectibles", Source Ebay
 https://www.ebay.com/itm/224208716939
 
+beard1.jpg - Photo Credit : Christian Buehner, Source : Unsplash.com
+https://unsplash.com/photos/6YQmQgcQ0VA
+
+Beard2.jpg - Photo Credit : JJ Jordan, Source : Unsplash.com
+https://unsplash.com/photos/JBqwqLG0SXw
+
+Beard3.jpg - Photo Credit : Keenan Barber, Source : Unsplash.com
+https://unsplash.com/photos/gF4lfeIQEFo
+
 
