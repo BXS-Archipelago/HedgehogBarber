@@ -611,13 +611,45 @@ nav ul li{
 
 /*-------------------------------------------------------------------------*/
 /*----------------------------------------------------------CONTACT.HTML */
+
+.booking-box .appointment {
+    font-family: "Cinzel", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.75rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #e3e3e3
+}
+
+.booking-box .apt-text {
+    color: #e3e3e3;
+   letter-spacing: 1.5px;
+   text-transform: uppercase;
+}
+
+.booking-box .book-btn2 {
+    color: #fff;
+    padding: 10px 15px 6px 15px;
+    font-size: 2vh;
+    text-decoration: none;
+    letter-spacing: 2px;
+    background: #B82601;
+    border: 1px solid #000;
+    text-transform: uppercase;
+   }
+
+
+.booking-box a:hover {
+    color: silver;
+}
+
 .cont-sctn {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 65vh;
     width: 100%;
-    background: #494E6B ;
+    background: url("../image/leather.jpg");
     position: relative;
     top: 5px;
     margin-bottom: 80px;
@@ -649,9 +681,9 @@ nav ul li{
 }
 
 .contact-container .form-box .form-style h3 {
-    color:rgb(226, 226, 226); 
+    color:#e3e3e3; 
     font-weight: 500;
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: "Cinzel", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
