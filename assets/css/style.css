@@ -284,7 +284,6 @@ nav ul li{
     font-style: italic;
     letter-spacing: 5px;
     text-shadow: 2px 3px 1px #000;
-    border: 1px solid #fff;
     padding: 5px 15px;
     display: inline-block;
 }
@@ -296,6 +295,11 @@ nav ul li{
     font-size:1rem;
     text-shadow: 1px 1px 1px #000;
     letter-spacing: 3px;
+}
+
+.hero-text i {
+    font-size: 20px;
+    color: #B82601;
 }
 
 .book-btn {
@@ -394,9 +398,7 @@ nav ul li{
 
 /*-------------------------------------------------------------------------*/
 /*----------------------------------------------------------EXPERIENCE.HTML  */
-.outer-container {
-    max-height: 100vh;
-}
+
 
 .display-box {
     height: auto;
@@ -618,13 +620,15 @@ nav ul li{
     font-size: 1.75rem;
     font-weight: 500;
     letter-spacing: 2px;
-    color: #e3e3e3
+    color: #e3e3e3;
 }
 
 .booking-box .apt-text {
     color: #e3e3e3;
+    font-size: 1rem;
    letter-spacing: 1.5px;
    text-transform: uppercase;
+   text-align: justify; 
 }
 
 .booking-box .book-btn2 {
@@ -650,6 +654,7 @@ nav ul li{
     min-height: 65vh;
     width: 100%;
     background: url("../image/leather.jpg");
+    background-size: cover;
     position: relative;
     top: 5px;
     margin-bottom: 80px;
@@ -878,7 +883,6 @@ margin-left: 20px;
         justify-content: center;
 }
 
-
 .ftr-box .address ul {
     padding-left: 0;
     margin-right: 0;
@@ -915,4 +919,61 @@ margin-left: 20px;
 .services-hdr {
     font-size: 20px;
 }
-} 
+
+.cont-sctn {
+    min-height: 200vh;
+    align-items: unset;
+}
+
+.booking-box {
+    margin-bottom: 40px;
+}
+
+.booking-box .appointment {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.glry-container {
+    width: 100%;
+    padding: 0px;
+}
+
+.hero-image3 {
+       min-height: 340vh;
+}
+
+.abt-hdr {
+   font-size: 1.5rem;
+}
+
+.history .about {
+    font-family: "Cinzel", sans-serif;
+    font-size: 1rem;
+    color: #fff;
+
+}
+
+.history .about {
+    font-size: 0.75rem;
+}
+
+
+.booking-box .apt-text {
+    font-size: 10px;
+}
+
+.contact-container .form-box .form-style h3 {
+    color:#e3e3e3; 
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.contact-container .form-box form {
+    padding: 0px;
+}
+
+.contact-container .form-box .form-style .inputbox input[type="submit"] {
+    font-size: 14px;
+}
+
+}
