@@ -6,8 +6,11 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    min-height: 65vh;
     background-color: #192231;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /*---------------------------------------------------------------->>>>  LOGO */
@@ -251,7 +254,7 @@ nav ul li{
 .hero-image {
     background: url("../image/barbershop.jpg");
     position: relative;
-    height: 100vh;
+    height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
     transition: all 3s ease-in-out;
@@ -328,7 +331,7 @@ nav ul li{
 }
 
 /*-------------------------------------------------------------------------*/
-/*----------------------------------------------------------PRICES.HTML*/
+/*----------------------------------------------------------SERVICES.HTML*/
 
 .hero-image2 {
     background: url("../image/scissors2.jpg");
@@ -396,29 +399,129 @@ nav ul li{
     color: silver;
 }
 
+
+/*-----------Test Page------------------------------------------------*/
+.main-outer .row {
+    display: flex;
+   align-items: center;
+   margin: 30px auto;
+}
+
+.row-1 {
+     background-color: #FF3B3F;
+     padding: 15px;
+     border-radius: 8px;
+     box-shadow: 8px 7px 4px #a59e8e;
+     margin: 0 9px;
+}
+
+.pole-pic{
+     max-width: 300px;
+     height: auto;
+     }
+
+.row-2 {
+      background-color: #A9A9A9;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 8px 7px 4px #a59e8e;
+}
+
+.row-3 {
+    background-color: #d4af37;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 8px 7px 4px #a59e8e;
+}
+
+
+.intro-pic img {
+    max-height: 200px;
+     box-shadow: 3px 5px 6px #565b5d ;
+}
+
+.intro-pic2 img{
+    max-height: 200px;
+}
+
+.intro-text {
+    padding: 0 20px;
+    color: #282828;
+}
+
+.intro-text p {
+    font-weight: 500;
+}
+
+.intro-text li  {
+     list-style: none;
+}
+
+.intro-text li a {
+    color: darkblue;
+    font-weight: bolder;
+    list-style: none;
+}
+
+.intro-text span a {
+    color: darkblue;
+    font-weight: bolder;
+}
+
+.intro-text .header1 b {
+    font-size: 110%;
+}
+
+.intro-text2 {
+    padding: 0 20px;
+    color: #282828;
+
+}
+
+.intro-text2 li  {
+     list-style: none;
+}
+
+.intro-text2 li a {
+    color: darkblue;
+    font-weight: bolder;
+    list-style: none;
+}
+
+.intro-text2 span a {
+    color: #282828;
+    font-weight: bolder;
+}
+
 /*-------------------------------------------------------------------------*/
 /*----------------------------------------------------------EXPERIENCE.HTML  */
 
 
-.display-box {
-    height: auto;
-    width: 100%;
-    display: flex;
-    align-items: center;   
-    margin-bottom: 30px;    
-}
+
 
 .hero-image3 {
     background: url("../image/experience.jpg");
-    position: relative;
     background-attachment: fixed;
-    height: 100vh;
-    background-repeat: no-repeat;
+        background-repeat: no-repeat;
     background-size: cover;
     transition: all 3s ease-in-out;
     background-position: center;
     padding-top: 20px;
-   
+   }
+
+   .outer-container {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       flex-direction: column;
+       height: 100vh;
+   }
+   .display-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    margin-bottom: 30px;    
 }
 .meet {
     align-content: center;
@@ -788,15 +891,8 @@ nav ul li{
 
 /*=========================================================Footer*/
 .site-footer {
-    bottom: 0;
-    width: 100%;
-    position: fixed;
-    Left: 0;
-    bottom: 0;
-    padding:15px 0 20px;
-    font-size:15px;
-    line-height:24px;
-    color: #B82601;
+    position: relative;
+   bottom: 0;
 }
 
 
@@ -847,13 +943,8 @@ nav ul li{
 .copyright-text a:hover {
     color: #CAEBF2;
 }
-@media (max-width:991px)
-{
-  .site-footer [class^=col-]
-  {
-    margin-bottom:30px
-  }
-}
+
+
 @media (max-width:767px)
 {
   .site-footer
@@ -1140,3 +1231,5 @@ margin-left: 20px;
 }
 
 }
+
+
