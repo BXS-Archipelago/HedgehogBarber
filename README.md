@@ -141,4 +141,5 @@ https://unsplash.com/photos/JBqwqLG0SXw
 Beard3.jpg - Photo Credit : Keenan Barber, Source : Unsplash.com
 https://unsplash.com/photos/gF4lfeIQEFo
 
-
+Salon2.jpg - Photo Credit : Ramille Soares, Source : Unsplash.com
+https://unsplash.com/photos/C8JszzDcnMA
